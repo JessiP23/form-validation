@@ -1,0 +1,27 @@
+#usernameError {
+    display: none;
+    color: red;
+}
+
+
+#emailError {
+    display: none;
+    color: red;
+}
+
+
+#passwordError {
+    display: none;
+    color: red;
+}
+
+#confirmPasswordError {
+    display: none;
+    color: red;
+}
+
+#termsError {
+    display: none;
+    color: red;
+}
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="registration">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required minlength="4" pattern="[A-Za-z0-9]{4,}" title="Username must be at least 4 characters long and contain only letters and numbers">
+        <div id="usernameError"></div>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" required>
+        <div id="emailError"></div>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="15" >
+        <div id="passwordError"></div>
+
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+        <div id="confirmPasswordError"></div>
+
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I accept the terms and conditions</label>
+        <div id="termsError"></div>
+
+        <button type="submit">Submit</button>
+
+        <div id="success">Registration Successfull</div>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>
